@@ -169,6 +169,14 @@ main {
 }
 
 
+/*Contacto*/
+
+.turno {
+    background-color: gray;
+    color: white;
+}
+
+
 /*TRANSICIONES, TRANSFORMACIONES, ANIMACIONES*/
 
 .tituloHi {
