@@ -30,12 +30,6 @@ main {
 
 /*SERVICIOS*/
 
-#titulos {
-    color: gray;
-    font-family: "raleway";
-    font-size: 85px;
-}
-
 .servicios h3 {
     margin: 100px;
     padding: 25px;
@@ -209,7 +203,7 @@ main {
     background-size: 100% 1px;
 }
 
-.imagenes :hover {
+.imagenes:hover {
     transform: scale(1.2);
     transition: 0.9s;
 }
