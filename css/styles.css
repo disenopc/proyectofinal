@@ -1,260 +1,243 @@
-/*Estilos Propios*/
-
-header {
-    background-image: url(../images/grisclaro-opt.jpg);
-    background-size: cover;
-}
-
-
-/*MAIN*/
-
-main {
-    background-image: url(../images/grisclaro-opt.jpg);
-    background-size: cover;
-}
-
-.main h1 {
-    color: #EBC81A;
-    font-weight: bold;
-    font-family: "montserrat";
-    font-size: 85px;
-    margin-left: 280px;
-}
-
-.primerParrafo {
-    font-size: 20px;
-    color: white;
-    margin-left: 300px;
-}
-
-
-/*SERVICIOS*/
-
-.servicios h3 {
-    margin: 100px;
-    padding: 25px;
-}
-
-
-/*REDIRECCION CONTACTO*/
-
-.redireccion {
-    background-image: url(../images/grisclaro-opt.jpg);
-    background-size: cover;
-}
-
-.redireccionContacto,
-.redireccionaContacto {
-    font-size: 35px;
-    color: #EB02B4;
-}
-
-.text-light {
-    text-decoration: none;
-}
-
-
-/*NEWSLETTER*/
-
-.labelNewsletter {
-    font-size: 30px;
-    color: #EBC81A;
-}
-
-
-/*FOOTER*/
-
-.footerFinP {
-    background-image: url(../images/grisclaro-opt.jpg);
-    background-size: cover;
-}
-
-.seguimeEnRedesDos {
-    font-weight: bold;
-    font-size: 25px;
-    color: #EBC81A;
-}
-
-.footerLogo {
-    width: 200px;
-}
-
-.seguimeEnRedesDosA {
-    color: #EB02B4;
-    font-weight: bold;
-}
-
-.boton-facebook {
-    background-color: #EBC81A;
-    border: #EBC81A;
-}
-
-.boton-mail {
-    background-color: #EB02B4;
-    border: #EB02B4;
-}
-
-.boton-instagram {
-    background-color: #f3da6b;
-    border: #f3da6b;
-}
-
-.boton-whatsapp {
-    background-color: #eb7bbc;
-    border: #eb7bbc;
-}
-
-.derechos {
-    color: #EBC81A;
-}
-
-
-/*quien soy*/
-
-.dibujopc {
-    margin-left: 200px;
-}
-
-.dibujoexplosion {
-    margin-left: 100px;
-}
-
-.objetivo {
-    color: #EBC81A;
-    font-style: italic;
-}
-
-.objetivoDos {
-    color: #EB02B4;
-    font-style: italic;
-}
-
-
-/*Servicios*/
-
-.cardsContenedor {
-    width: 100%;
-}
-
-.cards {
-    text-align: center;
-    width: 30%;
-    height: 300px;
-    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
-    margin: 2% 2% 2% 5%;
-    padding: 0;
-    display: inline-block;
-}
-
-.cards img {
-    width: 20px;
-}
-
-.cards h3 {
-    text-align: center;
-}
-
-.cards a {
-    display: inline-block;
-}
-
-.cards #serviciosFooter {
-    margin-top: 20px;
-}
-
-
-/*Contacto*/
-
-.turno {
-    background-color: gray;
-    color: white;
-}
-
-
-/*TRANSICIONES, TRANSFORMACIONES, ANIMACIONES*/
-
-.tituloHi {
-    margin: 0 0.8rem;
-    animation: heartBeat;
-    animation-duration: 5s;
-}
-
-.nav-link:hover {
-    font-weight: bold;
-    color: #EBC81A;
-}
-
-.redes:hover {
-    width: 50px;
-    transition: 0.9s;
-}
-
-.efectoa {
-    text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 0.5px;
-    transition: background-size .3s;
-}
-
-.efectoa:hover,
-.efectoa:focus {
-    background-size: 100% 1px;
-}
-
-.imagenes:hover {
-    transform: scale(1.2);
-    transition: 0.9s;
-}
-
-@media (max-width: 575.98px) {
-    .headerLogo {
-        width: 200px;
-        margin-left: 150px;
+    /*Estilos Propios*/
+    
+    header,
+    .paginaError {
+        background-image: url(../images/grisclaro-opt.jpg);
+        background-size: cover;
     }
-    .main {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
+    /*MAIN*/
+    
+    main {
+        background-image: url(../images/grisclaro-opt.jpg);
+        background-size: cover;
     }
+    
     .main h1 {
         color: #EBC81A;
         font-weight: bold;
         font-family: "montserrat";
         font-size: 85px;
-        margin-left: 0px;
+        margin-left: 280px;
     }
+    
     .primerParrafo {
         font-size: 20px;
         color: white;
-        margin: 0;
+        margin-left: 300px;
     }
+    /*SERVICIOS*/
+    
     .servicios h3 {
-        margin: 5px;
-        padding: 5px;
+        margin: 100px;
+        padding: 25px;
     }
-    .redireccionContacto {
+    /*REDIRECCION CONTACTO*/
+    
+    .redireccion {
+        background-image: url(../images/grisclaro-opt.jpg);
+        background-size: cover;
+    }
+    
+    .redireccionContacto,
+    .redireccionaContacto {
+        font-size: 35px;
+        color: #EB02B4;
+    }
+    
+    .text-light {
+        text-decoration: none;
+    }
+    /*NEWSLETTER*/
+    
+    .labelNewsletter {
+        font-size: 30px;
+        color: #EBC81A;
+    }
+    /*FOOTER*/
+    
+    .footerFinP {
+        background-image: url(../images/grisclaro-opt.jpg);
+        background-size: cover;
+    }
+    
+    .seguimeEnRedesDos {
+        font-weight: bold;
+        font-size: 25px;
+        color: #EBC81A;
+    }
+    
+    .footerLogo {
+        width: 200px;
+    }
+    
+    .seguimeEnRedesDosA {
+        color: #EB02B4;
         font-weight: bold;
     }
-    .footerFinP {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
+    
+    .boton-facebook {
+        background-color: #EBC81A;
+        border: #EBC81A;
     }
-    .quiensoy {
-        display: flex;
-        flex-direction: column;
+    
+    .boton-mail {
+        background-color: #EB02B4;
+        border: #EB02B4;
     }
-    .mision {
-        margin: 0;
+    
+    .boton-instagram {
+        background-color: #f3da6b;
+        border: #f3da6b;
     }
+    
+    .boton-whatsapp {
+        background-color: #eb7bbc;
+        border: #eb7bbc;
+    }
+    
+    .derechos {
+        color: #EBC81A;
+    }
+    /*quien soy*/
+    
     .dibujopc {
-        margin: 0;
+        margin-left: 200px;
     }
+    
     .dibujoexplosion {
-        margin: 0;
+        margin-left: 100px;
     }
-}
+    
+    .objetivo {
+        color: #EBC81A;
+        font-style: italic;
+    }
+    
+    .objetivoDos {
+        color: #EB02B4;
+        font-style: italic;
+    }
+    /*Servicios*/
+    
+    .cardsContenedor {
+        width: 100%;
+    }
+    
+    .cards {
+        text-align: center;
+        width: 30%;
+        height: 300px;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+        margin: 2% 2% 2% 5%;
+        padding: 0;
+        display: inline-block;
+    }
+    
+    .cards img {
+        width: 20px;
+    }
+    
+    .cards h3 {
+        text-align: center;
+    }
+    
+    .cards a {
+        display: inline-block;
+    }
+    
+    .cards #serviciosFooter {
+        margin-top: 20px;
+    }
+    /*Contacto*/
+    
+    .turno {
+        background-color: gray;
+        color: white;
+    }
+    /*TRANSICIONES, TRANSFORMACIONES, ANIMACIONES*/
+    
+    .tituloHi {
+        margin: 0 0.8rem;
+        animation: heartBeat;
+        animation-duration: 5s;
+    }
+    
+    .nav-link:hover {
+        font-weight: bold;
+        color: #EBC81A;
+    }
+    
+    .redes:hover {
+        width: 50px;
+        transition: 0.9s;
+    }
+    
+    .efectoa {
+        text-decoration: none;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 0.5px;
+        transition: background-size .3s;
+    }
+    
+    .efectoa:hover,
+    .efectoa:focus {
+        background-size: 100% 1px;
+    }
+    
+    .imagenes:hover {
+        transform: scale(1.2);
+        transition: 0.9s;
+    }
+    
+    @media (max-width: 575.98px) {
+        .headerLogo {
+            width: 200px;
+            margin-left: 150px;
+        }
+        .main {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+        }
+        .main h1 {
+            color: #EBC81A;
+            font-weight: bold;
+            font-family: "montserrat";
+            font-size: 85px;
+            margin-left: 0px;
+        }
+        .primerParrafo {
+            font-size: 20px;
+            color: white;
+            margin: 0;
+        }
+        .servicios h3 {
+            margin: 5px;
+            padding: 5px;
+        }
+        .redireccionContacto {
+            font-weight: bold;
+        }
+        .footerFinP {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+        }
+        .quiensoy {
+            display: flex;
+            flex-direction: column;
+        }
+        .mision {
+            margin: 0;
+        }
+        .dibujopc {
+            margin: 0;
+        }
+        .dibujoexplosion {
+            margin: 0;
+        }
+    }
